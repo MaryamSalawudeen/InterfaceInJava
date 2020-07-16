@@ -1,7 +1,9 @@
 package com.fragilecoder.interfaceinjava;
 
-public class Boxer implements Fighting{
+import android.widget.Button;
 
+public class Boxer implements Fighting{
+Button btn_Love;
     @Override
     public String throwJab() {
         return "Throw Faster Jab";
