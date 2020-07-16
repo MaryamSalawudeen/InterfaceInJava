@@ -4,6 +4,7 @@ import android.widget.Button;
 
 public class Boxer implements Fighting{
 Button btn_Love;
+Button btn_ife;
     @Override
     public String throwJab() {
         return "Throw Faster Jab";
